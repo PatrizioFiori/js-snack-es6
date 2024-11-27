@@ -1,4 +1,4 @@
-# Js-snak-es6
+# Js-snack-es6
 *esercizio 27/11/2024*
 
 **Snack 1**
