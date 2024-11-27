@@ -113,3 +113,27 @@ console.log("===================================");
 
 
 // ------- SNACK 3 ----------- //
+
+let a = Math.floor(Math.random() * (20 - 1 + 1)) + 1;
+let b = Math.floor(Math.random() * (40 - 21 + 1)) + 21;
+
+console.log(a);
+console.log(b); 
+let array = []
+
+functionCalcoloRange(array, a, b)
+
+function functionCalcoloRange (array, a, b){
+let lunghezzaRange = b - a
+a++
+lunghezzaRange--
+
+for (let i = 0; i < lunghezzaRange; i++){
+    array.push(a++)
+}
+
+return array
+
+}
+
+console.log(array);
